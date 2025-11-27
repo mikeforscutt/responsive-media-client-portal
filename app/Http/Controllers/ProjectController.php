@@ -10,8 +10,6 @@ class ProjectController extends Controller
 {
     public function index(Client $client)
     {
-        // Not really needed because we show projects on the client page,
-        // but required by the resource route.
         return redirect()->route('clients.show', $client);
     }
 
