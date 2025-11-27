@@ -56,7 +56,7 @@
 
                     <div class="flex justify-end gap-2">
                         <a href="{{ route('clients.show', $client) }}" class="text-sm text-gray-600">Cancel</a>
-                        <button class="px-4 py-2 bg-gray-900 text-white rounded-md text-sm">
+                        <button class="px-4 py-2 bg-blue-600 text-white rounded-md text-sm">
                             Save
                         </button>
                     </div>

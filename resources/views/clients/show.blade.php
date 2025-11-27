@@ -51,7 +51,7 @@
                 <div class="flex justify-between items-center mb-4">
                     <h3 class="font-semibold">Projects</h3>
                     <a href="{{ route('clients.projects.create', $client) }}"
-                       class="inline-flex items-center px-3 py-1 border rounded-md text-sm">
+                        class="inline-flex items-center px-3 py-1 border rounded-md text-sm">
                         + New Project
                     </a>
                 </div>
