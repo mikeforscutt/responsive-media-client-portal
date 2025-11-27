@@ -4,7 +4,7 @@
             <h2 class="font-semibold text-xl text-gray-800">
                 {{ $client->name }}
             </h2>
-            <div class="flex gap-2">
+            <div class="flex items-center gap-2 px-2">
                 <a href="{{ route('clients.edit', $client) }}" class="text-sm underline">Edit</a>
                 <form method="POST" action="{{ route('clients.destroy', $client) }}"
                       onsubmit="return confirm('Delete this client?')">

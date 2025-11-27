@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class ClientController extends Controller
 {
-    public function dashboard()
+   public function dashboard()
     {
         $totalClients   = Client::count();
         $totalProjects  = Project::count();
