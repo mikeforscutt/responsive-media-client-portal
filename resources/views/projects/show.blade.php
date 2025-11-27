@@ -9,7 +9,7 @@
                     {{ $project->client->name }}
                 </p>
             </div>
-            <div class="flex gap-2">
+            <div class="flex items-center gap-2 px-2">
                 <a href="{{ route('projects.edit', $project) }}" class="text-sm underline">Edit</a>
                 <form method="POST" action="{{ route('projects.destroy', $project) }}"
                       onsubmit="return confirm('Delete this project?')">
